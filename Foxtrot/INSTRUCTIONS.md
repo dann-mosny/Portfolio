@@ -7,10 +7,10 @@ Result of an assigment to add physics based mechanics and animations to a generi
 This game was developed for the Windows operating system. After unzipping run the `Foxtrot.exe` file.
 
 ### CONTROLS
-`WASD/Arrow keys` -> Move
-`Space bar` -> Jump
-`Shift` (when under a platform) -> Shoot ninja rope
-`W`,`S` or `Up arrow`,`Down arrow` (when on rope) -> Climb up or down
+`WASD/Arrow keys` -> Move\
+`Space bar` -> Jump\
+`Shift` (when under a platform) -> Shoot ninja rope\
+`W`,`S` or `Up arrow`,`Down arrow` (when on rope) -> Climb up or down\
 `Space bar` (when on rope) -> Jump off the rope
 
 ### GOAL OF THE GAME
