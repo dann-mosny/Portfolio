@@ -7,9 +7,9 @@ Result of a school assigment to create a unique mechanic for a platformer using 
 This game was developed for the Windows operating system. After unzipping run the `BulletWalker.exe` file.
 
 ### CONTROLS
-`WASD` -> Move
-`Space bar` -> Jump
-`P` -> Shoot
+`WASD` -> Move\
+`Space bar` -> Jump\
+`P` -> Shoot\
 `S + Space bar` -> Fall down through platforms
 
 ### TRAILER
