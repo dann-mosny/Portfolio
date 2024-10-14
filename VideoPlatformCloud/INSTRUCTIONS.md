@@ -13,11 +13,11 @@ C# application which utilises video platform PeerTube to store files. Local file
 This application was developed for the Windows operating system. After unzipping run the `RUNNER.bat` file.
 
 ### USING
-After launching the application wait for the message `vid file synchronizer started` which means that logging into your peertube account was succesful.
-Command `vid status` outputs a message describing which files are and aren't synchronised with the server.
-Command `vid add` followed by a file name adds that file to a list of files waiting for synchronization.
-Command `vid remove` followed by a file name removes that file from the list of files waiting for synchronisation.
-Command `vid push` uploads files waiting for synchronisation to the server.
-Command `vid pull` downloads files which are not stored locally from the server.
-Command `vid delete` followed by a file name deletes the file both locally and also from the server.
+After launching the application wait for the message `vid file synchronizer started` which means that logging into your peertube account was succesful.\
+Command `vid status` outputs a message describing which files are and aren't synchronised with the server.\
+Command `vid add` followed by a file name adds that file to a list of files waiting for synchronization.\
+Command `vid remove` followed by a file name removes that file from the list of files waiting for synchronisation.\
+Command `vid push` uploads files waiting for synchronisation to the server.\
+Command `vid pull` downloads files which are not stored locally from the server.\
+Command `vid delete` followed by a file name deletes the file both locally and also from the server.\
 Commands `vid resolve local` and "vid resolve server" followed by a name of a conflicitng file keeps the local or server version of the file and discards the other version. 
