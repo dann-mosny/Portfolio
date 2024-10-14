@@ -1,0 +1,297 @@
+{
+	"turn_structure": [ "move", "exchange"],
+	"movement_type": "forced",
+	"only_forward_movement": true,
+	"max_player_items": 1,
+	"fill_unspecified_tiles": true,
+	"max_hand_size": 1,
+	"exchange_with": "hand",
+	"exchanging_mode": "connected",
+	"end_of_game_conditions": ["no cheese"],
+	"board": {
+		"width": 9,
+		"height": 9,
+		"paths_on_tile_side": 1,
+		"not_exchangeable_tiles": [
+			"4,4",
+			"0,0",
+			"1,0",
+			"2,0",
+			"3,0",
+			"4,0",
+			"5,0",
+			"6,0",
+			"7,0",
+			"8,0",
+			"0,1",
+			"0,2",
+			"0,3",
+			"0,4",
+			"0,5",
+			"0,6",
+			"0,7",
+			"0,8",
+			"8,1",
+			"8,2",
+			"8,3",
+			"8,4",
+			"8,5",
+			"8,6",
+			"8,7",
+			"8,8",
+			"1,8",
+			"2,8",
+			"3,8",
+			"4,8",
+			"5,8",
+			"6,8",
+			"7,8",
+			"8,8"
+		]
+	},
+	"tiles": [
+		{
+			"amount": 28,
+			"connections": [ "R0,L0", "U0,D0" ],
+			"face_down": true
+		},
+		{
+			"amount": 28,
+			"connections": [ "U0,R0", "D0,L0" ],
+			"face_down": true
+		},
+		{
+			"connections": [ "U0,R0,D0,L0" ],
+			"items": ["cheese 1"],
+			"location": [ 4, 4 ],
+			"movement_ending": true,
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 2, 0 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 6, 0 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 4, 0 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 2, 8 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 4, 8 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 6, 8 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 0, 2 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 0, 4 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 0, 6 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 8, 2 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 8, 4 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 8, 6 ],
+			"effects": [ "collect" ],
+			"can_turn_around": true
+		},
+		{
+			"connections": [ "R0,D0" ],
+			"location": [ 0, 0 ],
+			"effects": [ "collect" ],
+			"movement_ending": true
+		},
+		{
+			"connections": [ "L0,D0" ],
+			"location": [ 1, 0 ]
+		},
+		{
+			"connections": [ "U0,R0" ],
+			"location": [ 0, 1 ]
+		},
+		{
+			"connections": [ "L0,D0" ],
+			"location": [ 8, 0 ],
+			"effects": [ "collect" ],
+			"movement_ending": true
+		},
+		{
+			"connections": [ "R0,D0" ],
+			"location": [ 7, 0 ]
+		},
+		{
+			"connections": [ "U0,L0" ],
+			"location": [ 8, 1 ]
+		},
+		{
+			"connections": [ "U0,L0" ],
+			"location": [ 8, 8 ],
+			"effects": [ "collect" ],
+			"movement_ending": true
+		},
+		{
+			"connections": [ "U0,R0" ],
+			"location": [ 7, 8 ]
+		},
+		{
+			"connections": [ "L0,D0" ],
+			"location": [ 8, 7 ]
+		},
+		{
+			"connections": [ "U0,R0" ],
+			"location": [ 0, 8 ],
+			"effects": [ "collect" ],
+			"movement_ending": true
+		},
+		{
+			"connections": [ "R0,D0" ],
+			"location": [ 0, 7 ]
+		},
+		{
+			"connections": [ "U0,L0" ],
+			"location": [ 1, 8 ]
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 3, 0 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 5, 0 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 3, 8 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		},
+		{
+			"connections": [ "U0,D0" ],
+			"location": [ 5, 8 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 8, 3 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 8, 5 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 0, 3 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"location": [ 0, 5 ],
+			"effects": ["send items 4 4", "return", "skip 1"]
+		}
+	],
+	"players": [
+		{
+			"starting_x": 2,
+			"starting_y": 0,
+			"starting_side": "U",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 2 0", "items cheese 0 0", "items cheese 4 0" ]
+		},
+		{
+			"starting_x": 6,
+			"starting_y": 0,
+			"starting_side": "U",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 6 0", "items cheese 4 0", "items cheese 8 0" ]
+		},
+		{
+			"starting_x": 8,
+			"starting_y": 2,
+			"starting_side": "R",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 8 2", "items cheese 8 0", "items cheese 8 4" ]
+		},
+		{
+			"starting_x": 8,
+			"starting_y": 6,
+			"starting_side": "R",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 8 6", "items cheese 8 4", "items cheese 8 8" ]
+		},
+		{
+			"starting_x": 6,
+			"starting_y": 8,
+			"starting_side": "D",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 6 8", "items cheese 8 8", "items cheese 4 8" ]
+		},
+		{
+			"starting_x": 2,
+			"starting_y": 8,
+			"starting_side": "D",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 2 8", "items cheese 4 8", "items cheese 0 8" ]
+		},
+		{
+			"starting_x": 0,
+			"starting_y": 6,
+			"starting_side": "L",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 0 6", "items cheese 0 8", "items cheese 0 4" ]
+		},
+		{
+			"starting_x": 0,
+			"starting_y": 2,
+			"starting_side": "L",
+			"starting_path_index": 0,
+			"end_of_game_scoring": [ "items cheese 0 2", "items cheese 0 4", "items cheese 0 0" ]
+		}
+	]
+}

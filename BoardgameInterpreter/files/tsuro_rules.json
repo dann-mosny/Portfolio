@@ -1,0 +1,267 @@
+{
+	"turn_structure": [ "add", "moveAll" ],
+	"movement_type": "forced",
+	"only_forward_movement": true,
+	"cycle_pushed_out_tiles": false,
+	"max_hand_size": 3,
+	"adding_from": "hand",
+	"adding_mode": "connected",
+	"board": {
+		"width": 8,
+		"height": 8,
+		"paths_on_tile_side": 2
+	},
+	"tiles": [
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 1, 0 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 2, 0 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 3, 0 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 4, 0 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 5, 0 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 6, 0 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 1, 7 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 2, 7 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 3, 7 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 4, 7 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 5, 7 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "U0,D1", "U1,D0" ],
+			"location": [ 6, 7 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 0, 1 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 0, 2 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 0, 3 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 0, 4 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 0, 5 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 0, 6 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 7, 1 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 7, 2 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 7, 3 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 7, 4 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 7, 5 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0" ],
+			"location": [ 7, 6 ],
+			"effects": [ "eliminate" ]
+		},
+		{
+			"connections": [ "L1,R1", "L0,U1", "U0,D0", "R0,D1" ]
+		},
+		{
+			"connections": [ "L1,R0", "L0,R1", "U0,D0", "U1,D1" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,D1", "U1,R1", "R0,D0" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,R0", "U1,D1", "R1,D0" ]
+		},
+		{
+			"connections": [ "L1,U0", "L0,R1", "U1,D0", "R0,D1" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,D0", "U1,R1", "R0,D1" ]
+		},
+		{
+			"connections": [ "L1,U1", "L0,R0", "U0,D0", "R1,D1" ]
+		},
+		{
+			"connections": [ "L0,D0", "L1,D1", "U0,U1", "R0,R1" ]
+		},
+		{
+			"connections": [ "L0,U0", "L1,D0", "U1,R0", "R1,D1" ]
+		},
+		{
+			"connections": [ "L0,U1", "L1,D0", "U0,R1", "R0,D1" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,R1", "U1,R0", "D0,D1" ]
+		},
+		{
+			"connections": [ "L0,D1", "L1,D0", "U0,R1", "U1,R0" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,D0", "U1,R0", "R1,D1" ]
+		},
+		{
+			"connections": [ "L0,D0", "L1,U1", "U0,D1", "R0,R1" ]
+		},
+		{
+			"connections": [ "L0,U1", "L1,R0", "U0,D0", "R1,D1" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,U1", "R0,R1", "D0,D1" ]
+		},
+		{
+			"connections": [ "L0,D1", "L1,U0", "U1,D0", "R0,R1" ]
+		},
+		{
+			"connections": [ "L0,U0", "L1,R1", "U1,D1", "R0,D0" ]
+		},
+		{
+			"connections": [ "L0,R0", "L1,R1", "U0,U1", "D0,D1" ]
+		},
+		{
+			"connections": [ "L0,D0", "L1,D1", "U0,R0", "U1,R1" ]
+		},
+		{
+			"connections": [ "L0,U0", "L1,D1", "U1,R0", "R1,D0" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,D1", "U0,D0", "U1,R0" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,R1", "U1,D0", "R0,D1" ]
+		},
+		{
+			"connections": [ "L0,D0", "L1,R0", "U0,D1", "U1,R1" ]
+		},
+		{
+			"connections": [ "L0,U0", "L1,R0", "U1,D1", "R1,D0" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,D0", "U0,R0", "U1,D1" ]
+		},
+		{
+			"connections": [ "L0,R0", "L1,R1", "U0,D0", "U1,D1" ]
+		},
+		{
+			"connections": [ "L0,L1", "U0,D1", "U1,D0", "R0,R1" ]
+		},
+		{
+			"connections": [ "L0,D1", "L1,U0", "U1,R0", "R1,D0" ]
+		},
+		{
+			"connections": [ "L0,R0", "L1,U0", "U1,D1", "R1,D0" ]
+		},
+		{
+			"connections": [ "L0,D1", "L1,D0", "U0,R0", "U1,R1" ]
+		},
+		{
+			"connections": [ "L0,U1", "L1,D0", "U0,R0", "R1,D1" ]
+		},
+		{
+			"connections": [ "L0,D0", "L1,R1", "U0,U1", "R0,D1" ]
+		},
+		{
+			"connections": [ "L0,R1", "L1,R0", "U0,D1", "U1,D0" ]
+		},
+		{
+			"connections": [ "L0,U0", "L1,D1", "U1,R1", "R0,D0" ]
+		}
+	],
+	"players": [
+		{
+			"starting_x": 1,
+			"starting_y": 0,
+			"starting_side": "U",
+			"starting_path_index": 0
+		},
+		{
+			"starting_x": 7,
+			"starting_y": 1,
+			"starting_side": "R",
+			"starting_path_index": 0
+		},
+		{
+			"starting_x": 6,
+			"starting_y": 7,
+			"starting_side": "D",
+			"starting_path_index": 0
+		},
+		{
+			"starting_x": 0,
+			"starting_y": 6,
+			"starting_side": "L",
+			"starting_path_index": 0
+		}
+	]
+}

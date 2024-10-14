@@ -1,0 +1,205 @@
+{
+    "turn_structure": [ "push", "move" ],
+    "movement_type": "free",
+    "cycle_pushed_out_tiles": false,
+    "pick_up_items": false,
+    "fill_unspecified_tiles": true,
+    "random_goal_pool": [
+        "find coin",
+        "find bat",
+        "find book",
+        "find dragon",
+        "find genie",
+        "find ghost",
+        "find crown",
+        "find candle",
+        "find ring",
+        "find helmet",
+        "find jewel",
+        "find pig",
+        "find lizard",
+        "find moth",
+        "find owl",
+        "find rat",
+        "find scarab",
+        "find key",
+        "find skulll",
+        "find wizard",
+        "find spider",
+        "find sword",
+        "find chest",
+        "find map"
+    ],
+    "board": {
+        "width": 7,
+        "height": 7,
+        "paths_on_tile_side": 1,
+        "unpushable_columns": [ 0, 2, 4, 6 ],
+        "unpushable_rows": [ 0, 2, 4, 6 ]
+    },
+    "tiles": [
+        {
+            "amount": 9,
+            "connections": [ "D0,R0" ]
+        },
+        {
+            "amount": 13,
+            "connections": [ "L0,R0" ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "bat" ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "dragon" ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "genie" ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "ghost" ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "pig" ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "wizard" ]
+        },
+        {
+            "connections": [ "D0,R0" ],
+            "items": [ "lizard" ]
+        },
+        {
+            "connections": [ "D0,R0" ],
+            "items": [ "moth" ]
+        },
+        {
+            "connections": [ "D0,R0" ],
+            "items": [ "owl" ]
+        },
+        {
+            "connections": [ "D0,R0" ],
+            "items": [ "scarab" ]
+        },
+        {
+            "connections": [ "D0,R0" ],
+            "items": [ "rat" ]
+        },
+        {
+            "connections": [ "D0,R0" ],
+            "items": [ "spider" ]
+        },
+        {
+            "connections": [ "R0,D0" ],
+            "location": [ 0, 0 ]
+        },
+        {
+            "connections": [ "L0,D0" ],
+            "location": [ 6, 0 ]
+        },
+        {
+            "connections": [ "R0,U0" ],
+            "location": [ 0, 6 ]
+        },
+        {
+            "connections": [ "L0,U0" ],
+            "location": [ 6, 6 ]
+        },
+        {
+            "connections": [ "R0,L0,D0" ],
+            "items": [ "book" ],
+            "location": [ 2, 0 ]
+        },
+        {
+            "connections": [ "R0,L0,D0" ],
+            "items": [ "coin" ],
+            "location": [ 4, 0 ]
+        },
+        {
+            "connections": [ "U0,R0,D0" ],
+            "items": [ "map" ],
+            "location": [ 0, 2 ]
+        },
+        {
+            "connections": [ "U0,R0,D0" ],
+            "items": [ "crown" ],
+            "location": [ 2, 2 ]
+        },
+        {
+            "connections": [ "R0,L0,D0" ],
+            "items": [ "key" ],
+            "location": [ 4, 2 ]
+        },
+        {
+            "connections": [ "U0,L0,D0" ],
+            "items": [ "skull" ],
+            "location": [ 6, 2 ]
+        },
+        {
+            "connections": [ "U0,R0,D0" ],
+            "items": [ "ring" ],
+            "location": [ 0, 4 ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "chest" ],
+            "location": [ 2, 4 ]
+        },
+        {
+            "connections": [ "U0,L0,D0" ],
+            "items": [ "jewel" ],
+            "location": [ 4, 4 ]
+        },
+        {
+            "connections": [ "U0,L0,D0" ],
+            "items": [ "sword" ],
+            "location": [ 6, 4 ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "candle" ],
+            "location": [ 2, 6 ]
+        },
+        {
+            "connections": [ "U0,R0,L0" ],
+            "items": [ "helmet" ],
+            "location": [ 4, 6 ]
+        }
+
+    ],
+    "players": [
+        {
+            "starting_x": 0,
+            "starting_y": 0,
+            "starting_side": "R",
+            "starting_path_index": 0,
+            "goals": [ "random 6", "reach 0 0" ]
+        },
+        {
+            "starting_x": 6,
+            "starting_y": 0,
+            "starting_side": "D",
+            "starting_path_index": 0,
+            "goals": [ "random 6", "reach 6 0" ]
+        },
+        {
+            "starting_x": 0,
+            "starting_y": 6,
+            "starting_side": "U",
+            "starting_path_index": 0,
+            "goals": [ "random 6", "reach 0 6" ]
+        },
+        {
+            "starting_x": 6,
+            "starting_y": 6,
+            "starting_side": "L",
+            "starting_path_index": 0,
+            "goals": [ "random 6", "reach 6 6" ]
+        }
+    ]
+}

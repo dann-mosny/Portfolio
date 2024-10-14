@@ -1,0 +1,549 @@
+{
+	"turn_structure": [ "move" ],
+	"movement_type": "dice",
+	"max_move_distance": 6,
+	"min_move_distance": 1,
+	"only_forward_movement": true,
+	"board": {
+		"width": 10,
+		"height": 10,
+		"paths_on_tile_side": 1,
+		"unpushable_columns": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+		"unpushable_rows": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+	},
+	"tiles": [
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "1" ],
+			"location": [ 0, 9 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "2" ],
+			"location": [ 1, 9 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "3" ],
+			"location": [ 2, 9 ],
+			"effects": [ "move 3 7 L 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "4" ],
+			"location": [ 3, 9 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "5" ],
+			"location": [ 4, 9 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "6" ],
+			"location": [ 5, 9 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "7" ],
+			"location": [ 6, 9 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "8" ],
+			"location": [ 7, 9 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "9" ],
+			"location": [ 8, 9 ],
+			"effects": [ "move 9 8 D 0" ]
+		},
+		{
+			"connections": [ "L0,U0" ],
+			"items": [ "10" ],
+			"location": [ 9, 9 ]
+		},
+		{
+			"connections": [ "D0,L0" ],
+			"items": [ "11" ],
+			"location": [ 9, 8 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "12" ],
+			"location": [ 8, 8 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "13" ],
+			"location": [ 7, 8 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "14" ],
+			"location": [ 6, 8 ],
+			"effects": [ "move 8 5 L 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "15" ],
+			"location": [ 5, 8 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "16" ],
+			"location": [ 4, 8 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "17" ],
+			"location": [ 3, 8 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "18" ],
+			"location": [ 2, 8 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "19" ],
+			"location": [ 1, 8 ],
+			"effects": [ "move 0 6 D 0" ]
+		},
+		{
+			"connections": [ "R0,U0" ],
+			"items": [ "20" ],
+			"location": [ 0, 8 ]
+		},
+		{
+			"connections": [ "D0,R0" ],
+			"items": [ "21" ],
+			"location": [ 0, 7 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "22" ],
+			"location": [ 1, 7 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "23" ],
+			"location": [ 2, 7 ],
+			"effects": [ "move 0 8 R 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "24" ],
+			"location": [ 3, 7 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "25" ],
+			"location": [ 4, 7 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "26" ],
+			"location": [ 5, 7 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "27" ],
+			"location": [ 6, 7 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "28" ],
+			"location": [ 7, 7 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "29" ],
+			"location": [ 8, 7 ]
+		},
+		{
+			"connections": [ "L0,U0" ],
+			"items": [ "30" ],
+			"location": [ 9, 7 ]
+		},
+		{
+			"connections": [ "D0,L0" ],
+			"items": [ "31" ],
+			"location": [ 9, 6 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "32" ],
+			"location": [ 8, 6 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "33" ],
+			"location": [ 7, 6 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "34" ],
+			"location": [ 6, 6 ],
+			"effects": [ "move 8 7 L 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "35" ],
+			"location": [ 5, 6 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "36" ],
+			"location": [ 4, 6 ],
+			"effects": [ "move 3 4 R 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "37" ],
+			"location": [ 3, 6 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "38" ],
+			"location": [ 2, 6 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "39" ],
+			"location": [ 1, 6 ]
+		},
+		{
+			"connections": [ "R0,U0" ],
+			"items": [ "40" ],
+			"location": [ 0, 6 ]
+		},
+		{
+			"connections": [ "D0,R0" ],
+			"items": [ "41" ],
+			"location": [ 0, 5 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "42" ],
+			"location": [ 1, 5 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "43" ],
+			"location": [ 2, 5 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "44" ],
+			"location": [ 3, 5 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "45" ],
+			"location": [ 4, 5 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "46" ],
+			"location": [ 5, 5 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "47" ],
+			"location": [ 6, 5 ],
+			"effects": [ "move 3 1 L 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "48" ],
+			"location": [ 7, 5 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "49" ],
+			"location": [ 8, 5 ]
+		},
+		{
+			"connections": [ "L0,U0" ],
+			"items": [ "50" ],
+			"location": [ 9, 5 ]
+		},
+		{
+			"connections": [ "D0,L0" ],
+			"items": [ "51" ],
+			"location": [ 9, 4 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "52" ],
+			"location": [ 8, 4 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "53" ],
+			"location": [ 7, 4 ],
+			"effects": [ "move 8 3 L 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "54" ],
+			"location": [ 6, 4 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "55" ],
+			"location": [ 5, 4 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "56" ],
+			"location": [ 4, 4 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "57" ],
+			"location": [ 3, 4 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "58" ],
+			"location": [ 2, 4 ],
+			"effects": [ "move 0 5 D 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "59" ],
+			"location": [ 1, 4 ]
+		},
+		{
+			"connections": [ "R0,U0" ],
+			"items": [ "60" ],
+			"location": [ 0, 4 ]
+		},
+		{
+			"connections": [ "D0,R0" ],
+			"items": [ "61" ],
+			"location": [ 0, 3 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "62" ],
+			"location": [ 1, 3 ],
+			"effects": [ "move 2 0 R 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "63" ],
+			"location": [ 2, 3 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "64" ],
+			"location": [ 3, 3 ],
+			"effects": [ "move 4 8 R 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "65" ],
+			"location": [ 4, 3 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "66" ],
+			"location": [ 5, 3 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "67" ],
+			"location": [ 6, 3 ],
+			"effects": [ "move 9 5 L 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "68" ],
+			"location": [ 7, 3 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "69" ],
+			"location": [ 8, 3 ]
+		},
+		{
+			"connections": [ "L0,U0" ],
+			"items": [ "70" ],
+			"location": [ 9, 3 ]
+		},
+		{
+			"connections": [ "D0,L0" ],
+			"items": [ "71" ],
+			"location": [ 9, 2 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "72" ],
+			"location": [ 8, 2 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "73" ],
+			"location": [ 7, 2 ],
+			"effects": [ "move 8 0 R 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "74" ],
+			"location": [ 6, 2 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "75" ],
+			"location": [ 5, 2 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "76" ],
+			"location": [ 4, 2 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "77" ],
+			"location": [ 3, 2 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "78" ],
+			"location": [ 2, 2 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "79" ],
+			"location": [ 1, 2 ]
+		},
+		{
+			"connections": [ "R0,U0" ],
+			"items": [ "80" ],
+			"location": [ 0, 2 ]
+		},
+		{
+			"connections": [ "D0,R0" ],
+			"items": [ "81" ],
+			"location": [ 0, 1 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "82" ],
+			"location": [ 1, 1 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "83" ],
+			"location": [ 2, 1 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "84" ],
+			"location": [ 3, 1 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "85" ],
+			"location": [ 4, 1 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "86" ],
+			"location": [ 5, 1 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "87" ],
+			"location": [ 6, 1 ],
+			"effects": [ "move 5 0 R 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "88" ],
+			"location": [ 7, 1 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "89" ],
+			"location": [ 8, 1 ]
+		},
+		{
+			"connections": [ "L0,U0" ],
+			"items": [ "90" ],
+			"location": [ 9, 1 ]
+		},
+		{
+			"connections": [ "D0,L0" ],
+			"items": [ "91" ],
+			"location": [ 9, 0 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "92" ],
+			"location": [ 8, 0 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "93" ],
+			"location": [ 7, 0 ],
+			"effects": [ "move 6 2 R 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "94" ],
+			"location": [ 6, 0 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "95" ],
+			"location": [ 5, 0 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "96" ],
+			"location": [ 4, 0 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "97" ],
+			"location": [ 3, 0 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "98" ],
+			"location": [ 2, 0 ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "99" ],
+			"location": [ 1, 0 ],
+			"effects": [ "move 4 1 L 0" ]
+		},
+		{
+			"connections": [ "L0,R0" ],
+			"items": [ "100" ],
+			"location": [ 0, 0 ]
+		}
+	],
+	"players": [
+		{
+			"starting_x": 0,
+			"starting_y": 9,
+			"starting_side": "L",
+			"starting_path_index": 0,
+			"goals": [ "find 100" ]
+		},
+		{
+			"starting_x": 0,
+			"starting_y": 9,
+			"starting_side": "L",
+			"starting_path_index": 0,
+			"goals": [ "find 100" ]
+		}
+	]
+}

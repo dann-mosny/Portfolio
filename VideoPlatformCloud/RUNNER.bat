@@ -1,0 +1,3 @@
+cd files
+video_platform_cloud.exe
+Pause

@@ -1,0 +1,2 @@
+cd files
+BoardgameInterpreter.exe

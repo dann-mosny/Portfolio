@@ -1,0 +1,181 @@
+{
+    "turn_structure": ["move", "push"],
+    "movement_type": "free",
+    "max_move_distance": 1,
+    "min_move_distance": 1,
+    "only_forward_movement": true,
+    "cycle_pushed_out_tiles": true,
+    "items_picked_up": 0,
+    "max_player_items": 0,
+    "fill_unspecified_tiles": true,
+    "random_goal_pool": [],
+    "max_hand_size": 0,
+    "adding_from": "hand",
+    "adding_mode": "anywhere",
+    "exchange_with": "hand",
+    "exchanging_mode": "anywhere",
+    "exchange_only_flipped": false,
+    "end_of_game_conditions": [],
+    "board": {
+        "width": 5,
+        "height": 6,
+        "paths_on_tile_side": 1,
+        "unpushable_columns": [ 0, 1, 2, 3, 4 ],
+        "unpushable_rows": [ 0, 5 ],
+        "not_exchangeable_tiles": []
+    },
+    "tiles": [
+        {
+            "amount": 20,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [],
+            "effects": [],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 0, 0 ],
+            "effects": [ "eliminate" ],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 1, 0 ],
+            "effects": [ "eliminate" ],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 2, 0 ],
+            "effects": [ "eliminate" ],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 3, 0 ],
+            "effects": [ "eliminate" ],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 4, 0 ],
+            "effects": [ "eliminate" ],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 0, 5 ],
+            "effects": [],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 1, 5 ],
+            "effects": [],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 2, 5 ],
+            "effects": [],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 3, 5 ],
+            "effects": [],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        },
+        {
+            "amount": 1,
+            "connections": [ "U0,D0" ],
+            "items": [],
+            "location": [ 4, 5 ],
+            "effects": [],
+            "face_down": false,
+            "movement_ending": false,
+            "can_turn_around": false
+        }
+    ],
+    "players": [
+        {
+            "starting_x": 0,
+            "starting_y": 5,
+            "starting_side": "D",
+            "starting_path_index": 0,
+            "goals": [],
+            "end_of_game_scoring": []
+        },
+        {
+            "starting_x": 1,
+            "starting_y": 5,
+            "starting_side": "D",
+            "starting_path_index": 0,
+            "goals": [],
+            "end_of_game_scoring": []
+        },
+        {
+            "starting_x": 2,
+            "starting_y": 5,
+            "starting_side": "D",
+            "starting_path_index": 0,
+            "goals": [],
+            "end_of_game_scoring": []
+        },
+        {
+            "starting_x": 3,
+            "starting_y": 5,
+            "starting_side": "D",
+            "starting_path_index": 0,
+            "goals": [],
+            "end_of_game_scoring": []
+        },
+        {
+            "starting_x": 4,
+            "starting_y": 5,
+            "starting_side": "D",
+            "starting_path_index": 0,
+            "goals": [],
+            "end_of_game_scoring": []
+        }
+    ]
+}
